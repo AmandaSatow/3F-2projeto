@@ -17,5 +17,35 @@ body{
     background-color: var(--cor-de-fundo);
     color: var(--cor-primaria);
     height: 100vh;
-    font: var(--fonte);
+    font-family: var(--fonte);
+}
+
+header{
+    background-color: var(--cor-terciaria);
+    text-align: center;
+}
+
+h1{
+    color: var(--cor-primaria);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--cor-primaria);
+    margin: 0 2rem 1rem 0;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.9);
+    transition: transform 0.5s;
 }
