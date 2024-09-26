@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans:wght@100..800&display=swap');
 
 :root{
-    --cor-de-fundo: #EEDF7A;
-    --cor-primaria: #343131;
-    --cor-secundaria: #A04747;
-    --cor-terciaria: #D8A25E;
+    --cor-de-fundo: #FFF4EA;
+    --cor-primaria: #C96868;
+    --cor-secundaria: #FADFA1;
+    --cor-terciaria: #7EACB5;
     --fonte: "Playpen Sans", cursive;
 }
 
