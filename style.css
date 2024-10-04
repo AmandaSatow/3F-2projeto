@@ -3,7 +3,7 @@
 :root{
     --cor-de-fundo: #FFF4EA;
     --cor-primaria: #C96868;
-    --cor-secundaria: #FADFA1;
+    --cor-secundaria: #a14545;
     --cor-terciaria: #7EACB5;
     --fonte: "Playpen Sans", cursive;
 }
@@ -39,7 +39,7 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: var(--cor-primaria);
+    color: var(--cor-de-fundo);
     margin: 0 2rem 1rem 0;
     font-size: 1.2rem;
 }
@@ -48,4 +48,26 @@ nav a:hover{
     text-decoration: underline;
     transform: scale(0.9);
     transition: transform 0.5s;
+}
+
+footer{
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    text-align: center;
+}
+
+span{
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+
+.graficos-container{
+    margin: 5rem;
+}
+
+.graficos-texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--cor-secundaria) solid 2px;
 }
