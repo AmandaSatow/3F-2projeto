@@ -20,7 +20,7 @@ async function quantidadeDeUsuarios(){
 
     const layout = {
         plot_bgcolor: getCSS('--cor-de-fundo'),
-        paper_bgcolor: getCSS("--cor-de-fundo"),
+        paper_bgcolor: getCSS('--cor-de-fundo'),
         title:{
             text:'Redes sociais com mais usuários no mundo',
             x: 0,
