@@ -72,3 +72,6 @@ span{
     border: var(--cor-secundaria) solid 2px;
 }
 
+.grafico{
+    margin-top: 3rem;
+}
